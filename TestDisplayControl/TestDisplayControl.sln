@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDisplayControl", "TestDisplayControl\TestDisplayControl.csproj", "{36F7253C-618F-46D8-BDFA-1916362D1EA7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{130E5383-2D61-486C-BC5A-AA01375B1452} = {130E5383-2D61-486C-BC5A-AA01375B1452}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayControl", "DisplayControl\DisplayControl.csproj", "{130E5383-2D61-486C-BC5A-AA01375B1452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F7253C-618F-46D8-BDFA-1916362D1EA7}.Debug|x64.ActiveCfg = Debug|x64
+		{36F7253C-618F-46D8-BDFA-1916362D1EA7}.Debug|x64.Build.0 = Debug|x64
+		{36F7253C-618F-46D8-BDFA-1916362D1EA7}.Release|x64.ActiveCfg = Release|x64
+		{36F7253C-618F-46D8-BDFA-1916362D1EA7}.Release|x64.Build.0 = Release|x64
+		{130E5383-2D61-486C-BC5A-AA01375B1452}.Debug|x64.ActiveCfg = Debug|x64
+		{130E5383-2D61-486C-BC5A-AA01375B1452}.Debug|x64.Build.0 = Debug|x64
+		{130E5383-2D61-486C-BC5A-AA01375B1452}.Release|x64.ActiveCfg = Release|x64
+		{130E5383-2D61-486C-BC5A-AA01375B1452}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
